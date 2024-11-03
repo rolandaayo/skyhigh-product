@@ -5,23 +5,20 @@
 
   <!--
       cutom meta tags
-    -->
+  -->
+  <title>Shopify - Ecommerce Website</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is an Ecommerce website template made by codebyroland">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 
+     - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" class="css" />
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-  <title>SKY HIGH PRODUCT</title>
-
-  <!--
-      cutom css links
-    -->
-  <link rel="stylesheet" href="style.css" class="css" />
+  <!-- 
+      - google font link 
+  -->
 
 </head>
 
@@ -29,123 +26,99 @@
 
   <!--
       header
-    -->
+  -->
 
-  <nav class="nav">
 
-    <div class="logo">
+  <nav class="navbar">
 
-      <h1>SKY HIGH</h1>
-
+    <div class="navbar-brand">
+      <div class="logo">
+        <span style="color:#259dff">Shopify</span>
+      </div>
     </div>
 
-    <div class="nav-bar">
-
-      <ul class="nav-item">
-        <li id="list1">Home</li>
-        <li>Portfolio</li>
-        <li>Blog</li>
-        <li>Shop</li>
-        <li><button class="btn">Contact Us</button></li>
+    <div class="navbar-list">
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-li"><a href="" class="nav-link">About</a></li>
+        <li class="nav-li"><a href="" class="nav-link">Projects</a></li>
+        <li class="nav-li"><a href="" class="nav-link">Contacts</a></li>
       </ul>
+    </div>
 
-      <i class="fa-solid fa-bars" id="menu-icon"></i>
-
+    <div class="menu">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
 
   </nav>
 
-  <!--
-      hero tag
-    -->
-
+   <!--
+      header
+   -->
   <div class="container">
 
     <div class="header">
 
-      <div data-aos="fade-right" data-aos-duration="1000" class="header__summary">
-
+      <div class="header__summary">
         <p class="header__summary-price">$120.00</p>
-
         <h1 class="header__summary-title">Man summer collection</h1>
-
         <p class="header__summanry-details">
           This is the factor that sets us apart from competition and allows us
           deliver a specialist business service team applies its ranging
           experience determining.
         </p>
-
         <button class="btn">SHOP NOW</button>
-
       </div>
 
       <div data-aos="fade-left" data-aos-duration="1000" class="header__img">
-
-        <img class="header__img--image" src="./images/hero-banner.png" alt="" />
-
+        <img class="header__img--image" src="./assets/images/hero-banner.png" alt="hero-banner" />
       </div>
 
     </div>
 
   </div>
+
+   <!--
+      new arrivals
+   -->
 
   <div class="hero">
 
     <div class="hero-title">
-
       <h2>Explore new arrivals</h2>
-
     </div>
-
-
 
     <div class="hero-container">
 
-      <div data-aos="fade-right" data-aos-duration="1000" class="hero-pictures&details">
-
-        <img class=".hero-container-img" src="./images/product-1.png" alt="" />
-
+      <div class="hero-pictures&details">
+        <img class=".hero-container-img" src="./assets/images/product-1.png" alt="" />
         <h3 class="hero-h3">Short Sleeve Shirt</h3>
-
         <h4 class="hero-h4">$170.00</h4>
-
       </div>
-
-
 
       <div>
-
-        <img class=".hero-container-img" src="./images/product-2.png" alt="" />
-
+        <img class=".hero-container-img" src="./assets/images/product-2.png" alt="" />
         <h3 class="hero-h3">Dead Sunglasses</h3>
-
         <h4 class="hero-h4">$210.00</h4>
-
       </div>
 
-
-
       <div data-aos="fade-left" data-aos-duration="1000">
-
-        <img class=".hero-container-img" src="./images/product-3.png" alt="" />
-
+        <img class=".hero-container-img" src="./assets/images/product-3.png" alt="" />
         <h3 class="hero-h3">Studios Trouser</h3>
-
         <h4 class="hero-h4">$90.00</h4>
-
       </div>
 
     </div>
 
   </div>
 
-
-
-
-
-
-
+  <!--
+     featured products
+  -->
   <div class="hero">
+
     <div class="hero-title">
       <h2>Featured products</h2>
     </div>
@@ -153,38 +126,38 @@
     <div class="hero-container">
 
       <div data-aos="fade-right" data-aos-duration="1000" class="hero-pictures&details">
-        <img class=".hero-container-img" src="./images/product-4.png" alt="" />
+        <img class=".hero-container-img" src="./assets/images/product-4.png" alt="" />
         <h3 class="hero-h3">Acne Baseball Cap</h3>
         <h4 class="hero-h4">$80.00</h4>
       </div>
 
       <div>
-        <img class=".hero-container-img" src="./images/product-5.png" alt="" />
+        <img class=".hero-container-img" src="./assets/images/product-5.png" alt="" />
         <h3 class="hero-h3">Short Sleeve Shirt</h3>
         <h4 class="hero-h4">$170.00</h4>
       </div>
 
       <div data-aos="fade-left" data-aos-duration="1000">
-        <img class=".hero-container-img" src="./images/product-6.png" alt="" />
+        <img class=".hero-container-img" src="./assets/images/product-6.png" alt="" />
         <h3 class="hero-h3">Garcons Parfums</h3>
         <h4 class="hero-h4">$170.00</h4>
 
       </div>
 
       <div data-aos="fade-right" data-aos-duration="1000">
-        <img class=".hero-container-img" src="./images/product-7.png" alt="" />
+        <img class=".hero-container-img" src="./assets/images/product-7.png" alt="" />
         <h3 class="hero-h3">Salomon Sneaker</h3>
         <h4 class="hero-h4">$450.00</h4>
       </div>
 
       <div>
-        <img class=".hero-container-img" src="./images/product-8.png" alt="" />
+        <img class=".hero-container-img" src="./assets/images/product-8.png" alt="" />
         <h3 class="hero-h3">Ribbed Beanie Hat</h3>
         <h4 class="hero-h4">$120.00</h4>
       </div>
 
       <div data-aos="fade-left" data-aos-duration="1000">
-        <img class=".hero-container-img" src="./images/product-9.png" alt="" />
+        <img class=".hero-container-img" src="./assets/images/product-9.png" alt="" />
         <h3 class="hero-h3">Acronym Khaki</h3>
         <h4 class="hero-h4">$220.00</h4>
       </div>
@@ -197,47 +170,37 @@
     <button class="btn">VIEW ALL PRODUCTS</button>
   </div>
 
-  <!--
+    <!--
       FOOTER
     -->
+    <footer>
 
-  <footer>
     <div class="footer">
 
-      <div>
+      <div class="footer_item">
         <h2>Shoppie</h2>
         <h3>Main factor that sets us apart competition allows deliver <br> a specialist business consultancy service
           applies its ranging <br> experience</h3>
       </div>
 
-      <div>
+      <div class="footer_item">
         <h2>Contact Info</h2>
         <h3>Neal St, London WC2H 9PR
           United Kingdom</h3>
         <h3>info.shoppie@support.com +00 123 456 789</h3>
       </div>
 
-      <div>
+      <div class="footer_item">
         <h2> Subscribe newsletter</h2>
         <input type="text" placeholder="Enter your email address">
-
+        <input type="button" value="subscribe" name="" id="">
       </div>
 
     </div>
+    
   </footer>
 
-  <!--
-      ASOS JAVASCRIPT
-    -->
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js">
-
-  </script>
-
-  <script>
-    AOS.init();
-  </script>
-
+    <script src="./assets/js/script.js" defer></script>
 
 </body>
 
